@@ -1,0 +1,17 @@
+{
+    "cSpell.words": [
+        "Atcoder",
+        "autofix",
+        "autoupdate",
+        "isort",
+        "mypy",
+        "pydantic",
+        "setrecursionlimit"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": null,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true
+        }
+    }
+}

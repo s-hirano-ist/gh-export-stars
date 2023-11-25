@@ -1,0 +1,8 @@
+.DS_Store
+.venv
+.ruff_cache
+.mypy_cache
+dist
+.venv
+
+output.json
