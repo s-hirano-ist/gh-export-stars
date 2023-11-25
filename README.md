@@ -1,37 +1,37 @@
 # Github Export Stars
 
-## Install
+## Initial setups
 
-Install rye
+1. [Install Rye](https://rye-up.com/guide/installation/)
 
-```bash
-curl -sSf https://rye-up.com/get | RYE_INSTALL_OPTION="--yes" bash
-echo 'source "$HOME/.rye/env"' >> ~/.bashrc
-source "$HOME/.rye/env"
-```
-
-Install packages
+2. Install packages
 
 ```bash
 rye sync
 ```
 
-Install pre-commit
+## How to use?
+
+```bash
+rye run python src/main.py --user <github username>
+```
+
+```bash
+rye run python src/main.py --user <github username> --output <output file name>
+```
+
+For more information, run the following command
+
+```bash
+rye run python src/main.py --help
+```
+
+## For developers
+
+Install pre-commit (if necessary)
 
 ```bash
 rye run pre-commit install
-```
-
-## Run
-
-Export github stars
-
-```bash
-rye run python src/main.py --user GITHUB_USERNAME
-```
-
-```bash
-rye run python src/main.py --user GITHUB_USERNAME --output <output file name>
 ```
 
 Run pre-commit manually
