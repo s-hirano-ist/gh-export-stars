@@ -3,7 +3,7 @@ name = "gh-export-stars"
 version = "1.0.0"
 description = "Export Github stars to a json file."
 authors = [
-    { name = "s-hirano-ist", email = "solucky0725@icloud.com" }
+    { name = "s-hirano-ist", email = "s-hirano-ist@outlook.com" }
 ]
 readme = "README.md"
 
