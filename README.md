@@ -13,11 +13,11 @@ rye sync
 ## How to use?
 
 ```bash
-rye run python src/main.py --user <github username>
+rye run python src/main.py --user <gitHub username>
 ```
 
 ```bash
-rye run python src/main.py --user <github username> --output <output file name>
+rye run python src/main.py --user <gitHub username> --output <output file name>
 ```
 
 For more information, run the following command
