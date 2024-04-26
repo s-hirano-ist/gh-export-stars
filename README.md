@@ -26,7 +26,7 @@ For more information, run the following command
 rye run python src/main.py --help
 ```
 
-## For developers
+## For developers (formatters and linters)
 
 Install pre-commit (if necessary)
 
