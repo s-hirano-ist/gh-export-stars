@@ -4,5 +4,4 @@
 .mypy_cache
 dist
 .venv
-
 output.json
